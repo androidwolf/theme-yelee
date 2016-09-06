@@ -1,0 +1,120 @@
+# Header
+menu:
+  主页: /
+  所有文章: /archives/
+  # 随笔: /tags/随笔
+  标签云: /tags/
+  关于我: /about/
+
+# SubNav
+subnav:
+  # RSS plugin: https://github.com/hexojs/hexo-generator-feed
+  # Encrypt email 加密邮件地址 http://tool.chacuo.net/commonhideinfo
+  Email: "598515834@qq.com"
+  新浪微博: "weibo"
+  GitHub: "#"
+  #V2EX: "#"
+  #RSS: "/atom.xml"
+  #知乎: "zhihu"
+  #豆瓣: "douban"
+  #Facebook: "#"
+  #Google: "#"
+  #Twitter: "#"
+  #LinkedIn: "#"
+  #QQ: "#"
+  微信: "Wechat"
+  #PayPal: "#"
+  #StackOverflow: "#"
+  #Instagram: "#"
+  #Flickr: "#"
+
+# Customize feed link 自定义订阅地址
+rss: /atom.xml
+
+# "5": show images form bg-1.jpg to bg-5.jpg in `/yelee/source/background/`
+# "5": 显示`/yelee/source/background/`文件夹中 bg-1.jpg 到 bg-5.jpg 这5张图片
+# "0": white-gray background | 淳朴灰白背景
+background_image: 5
+
+# Content
+excerpt_link: more
+fancybox: true
+mathjax: true
+
+# 是否开启动画效果
+animate: true
+
+# 是否在新窗口打开链接
+open_in_new: false
+
+# Miscellaneous
+#google_analytics: ''
+#favicon: /favicon.png
+
+#你的头像url
+avatar: /img/me.jpg
+
+
+#是否开启分享
+share: true
+
+# >>> Conments 评论系统 <<<
+# Chose ONE as your comment system and keep others disable.
+# 选一个作为网站评论系统，其他保持禁用。
+
+disqus: 
+  #on: true
+  shortname: 
+  # https://help.disqus.com/customer/en/portal/articles/466208-what-s-a-shortname-
+  # It is unnecessary to enable disqus here if 
+  # you have set "disqus_shortname" in your site's "_config.yml" 
+
+duoshuo: 
+  #on: true
+  domain: 
+  # 是否开启多说评论，http://duoshuo.com/create-site/
+  # 使用上面网址登陆你的多说，然后创建站点，在 domain 中填入你设定的域名
+  # http://你的多说域名.duoshuo.com
+
+youyan:
+  #on: true
+  id: 
+  # 是否开启友言评论，http://www.uyan.cc/index.php
+  # id 中填写你的友言用户数字ID，注册后进入后台管理即可查看
+  # 友言服务在 Web 环境下运行，普通本地环境无法查看，请部署后在线上测试。
+
+# >>> <<<
+
+#是否开启云标签
+tagcloud: true
+
+#是否开启友情链接
+#不开启——
+#friends: false
+#开启——
+friends:
+  Me: https://androidwolf.github.io/
+  GitHub: https://github.com/androidwolf
+  CSND: http://blog.csdn.net/bug_moving
+
+#是否开启“关于我”。
+#不开启——
+#aboutme: false
+#开启——
+aboutme: 爱谈天跨地的秀秀
+
+#是否显示边栏中的搜索框 
+#Search Box in left column
+search_box: true
+
+#Site Verification for Google and Baidu. HTML label content.
+#百度、谷歌站长验证。填写 HTML 标签 content
+baidu_site: 
+google_site: 
+
+
+widgets: 
+- weibo
+#Keep TOC title on the same line.
+#目录中标题不换行
+#toc_nowrap: true
